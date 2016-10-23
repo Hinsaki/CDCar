@@ -20,6 +20,20 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent = new Intent(this,Main3Activity.class);
         startActivity(intent);
     }
+    public void WiFi(View v){
+        goWiFi();
+    }
+    private void goWiFi() {
+        Intent intent = new Intent(this,rpiwifirobot.class);
+        startActivity(intent);
+    }
+    public void Sen(View v){
+        goSen();
+    }
+    private void goSen() {
+        Intent intent = new Intent(this,sensorcontrol.class);
+        startActivity(intent);
+    }
     public void photo(View v){
         goPhoto();
     }

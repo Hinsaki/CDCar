@@ -28,6 +28,18 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="連接WiFi"
+        android:onClick="WiFi"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor"
+        android:onClick="Sen"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="相簿"
         android:onClick="photo"
         />
